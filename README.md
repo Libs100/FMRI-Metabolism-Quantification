@@ -1,49 +1,49 @@
-# **MRI Metabolism Quantification Using 3FDG and 3FDGal**
+# **F-MRI Metabolism Quantification Using 3FDG and 3FDGal**
 
 ## **Introduction**
-This project introduces a Python-based tool to analyze and visualize real-time brain metabolism using MRI scans and fluorinated probes, **3FDG** and **3FDGal**. The tool aims to simplify the quantification of metabolite activity and provide researchers with valuable insights into metabolic dynamics.
+Brain metabolism plays a pivotal role in understanding neurological processes, including normal function and disease states. This project aims to develop a Python-based analytical tool to quantify and visualize real-time metabolic changes in the brain using MRI data and fluorinated probes, **3FDG** and **3FDGal**.
+
+The tool will focus on automating data analysis and providing researchers with intuitive visualizations of metabolite activity, enabling in-depth insights into biochemical dynamics over time.
 
 ---
 
 ## **Features**
-1. **Input Handling**:
-   - Supports TIF images:
-     - Anatomical images (proton-based).
-     - Metabolite-specific images (3FDG, 3FDGal).
-   - Allows customizable parameters such as signal thresholds and regions of interest (ROI).
+1. **Image Analysis**:
+   - Supports TIF image files for:
+     - **Anatomical data** (proton-based images).
+     - **Metabolite-specific data** (e.g., 3FDG and 3FDGal signals).
 
-2. **Signal Analysis**:
-   - Detects and quantifies metabolite signals using intensity thresholds.
-   - Normalizes metabolite signals relative to anatomical images.
+2. **Signal Quantification**:
+   - Automatically identifies and quantifies metabolite-specific signals.
+   - Focuses on key regions of interest (ROIs) defined by users.
 
 3. **Visualization**:
-   - Time-series plots showing dynamic changes in metabolite activity.
-   - Heatmaps highlighting active regions in the brain.
+   - Time-series plots to show changes in metabolite activity over time.
+   - Heatmaps to highlight active regions in the brain.
 
 4. **Output**:
-   - Exports results in CSV/Excel formats.
-   - Saves visualizations as high-resolution images.
+   - Generates clear visualizations for presentations or publications.
+   - Exports quantified data in CSV or Excel formats for further analysis.
 
----
-
-## **Technical Implementation**
-- **Programming Language**: Python
-- **Required Libraries**:
-  - `numpy`, `pandas` for data analysis.
-  - `pillow`, `scikit-image` for image processing.
-  - `matplotlib`, `seaborn` for visualization.
-  
 ---
 
 ## **Future Extensions**
-1. Support for 3D MRI data (e.g., NIfTI format).
-2. Integration of Signal-to-Noise Ratio (SNR) calculations.
-3. Development of machine learning algorithms for ROI detection.
+1. **Enhanced Input Formats**:
+   - Support for 3D MRI data, such as NIfTI files, to enable broader compatibility.
+
+2. **Signal-to-Noise Ratio (SNR)**:
+   - Incorporate SNR calculations to filter and quantify high-quality signals more accurately.
+
+3. **Automated ROI Detection**:
+   - Develop machine learning models to identify regions of interest (ROIs) automatically.
+
+4. **Integration of Clinical Data**:
+   - Extend functionality to compare brain metabolism under different conditions (e.g., healthy vs. pathological states).
 
 ---
 
-## **How to Use**
-1. Clone the repository:
-   ```bash
-   git clone <repository_url>
+## **Conclusion**
+This project lays the foundation for an innovative tool to quantify and analyze brain metabolism in real time using **3FDG** and **3FDGal** probes. By automating data processing and visualization, the tool will provide researchers with an efficient, user-friendly solution for metabolic research, paving the way for future studies in neuroscience.
+
+---
 
