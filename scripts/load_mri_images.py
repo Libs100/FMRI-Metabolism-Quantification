@@ -28,7 +28,7 @@ def load_mri_images(directory, probe):
     images = {}
 
     # Define filename patterns based on the probe type
-    probe_prefix = "712" if probe == "p1" else "711"  # 712 → 3FDG, 711 → 3FDGal
+    probe_prefix = "711" if probe == "p2" else "712"  # 711 → 3FDGal, 712 → 3FDG
 
     for file_name in os.listdir(directory):
         if file_name.startswith(probe_prefix) and file_name.endswith(".tif"):
@@ -105,13 +105,12 @@ def display_images(images, probe):
 
 # ** Example Usage **
 if __name__ == "__main__":
-    # Change this path to the correct MRI images directory
-    directory = r"../data/mri_images"
+    # 📝 Change this path to your correct MRI images directory
+    directory = r"C:\Users\libis\Desktop\FMRI-Metabolism-Quantification\example_images_3FDGal"  # Path for 3FDGal images
 
-    # Choose probe ('p1' for 3FDG, 'p2' for 3FDGal)
-    probe = "p2"
+    # 🎯 Choose probe ('p1' for 3FDG, 'p2' for 3FDGal)
+    probe = "p2"  # This is set for 3FDGal by default, change to "p1" for 3FDG
 
-    # Load and display images
+    # 🔍 Load and display images
     images = load_mri_images(directory, probe)
     display_images(images, probe)
-
