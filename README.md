@@ -48,7 +48,7 @@ The tool will focus on automating data analysis and providing researchers with i
 🔹 **1. Clone or Download the Repository**  
 
 Run in the terminal (Git Bash or Anaconda Prompt):  
-git clone https://github.com/yourusername/FMRI-Metabolism-Quantification.git
+git clone https://github.com/Libs100/FMRI-Metabolism-Quantification.git
 cd FMRI-Metabolism-Quantification
 
 Alternatively, download the ZIP file, extract it, and place it in a directory of your choice.
@@ -58,6 +58,8 @@ Run the following command to install all necessary Python packages- pip install 
 
 🔹 **3. open Jupyter Notebook**
 Then, open scripts/the script you want to run.ipynb inside Jupyter
+
+
 ---
 
 
