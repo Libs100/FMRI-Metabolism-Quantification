@@ -65,6 +65,7 @@ Then, open scripts/the script you want to run.ipynb inside Jupyter
 
 ### 🛠 **Step 2: Configure Your Settings** 
 Before running the script, update the following variables inside Jupyter Notebook
+
 🔹 **1. Set Your Image Directory (Update Path)**
 directory = r"YOUR_LOCAL_PATH_HERE/example_images_3FDGal"  # 🔄 Change this to match your folder location
 
@@ -92,6 +93,9 @@ After running the script, your results will be automatically saved in output_ima
 
 ## **Conclusion**
 This project lays the foundation for an innovative tool to quantify and analyze brain metabolism in real time using **3FDG** and **3FDGal** probes. By automating data processing and visualization, the tool will provide researchers with an efficient, user-friendly solution for metabolic research, paving the way for future studies in neuroscience.
+
+
+---
 
 ---
 📧 Contact & Support
