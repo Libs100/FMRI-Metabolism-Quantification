@@ -97,8 +97,7 @@ This project lays the foundation for an innovative tool to quantify and analyze 
 
 ---
 
----
-📧 Contact & Support
+## **📧 Contact & Support**
 📩 For questions or collaboration, contact:
 libi.saad@weizmann.ac.il
 ---
