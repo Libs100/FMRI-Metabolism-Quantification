@@ -42,6 +42,8 @@ The tool will focus on automating data analysis and providing researchers with i
 
 ---
 ## 🎯 How to Use the Tool  
+Code Structure:
+The scripts are modular to allow flexible data processing. This enables running only the necessary analyses—whether full data extraction or just numerical and graphical comparisons—optimizing efficiency and focus.
 
 ### 🛠 Step 1: Download & Set Up  
 
