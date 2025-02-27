@@ -78,6 +78,7 @@ output_directory = r"YOUR_LOCAL_PATH_HERE/output_images"
 🔍 Make sure you use the correct folder for 3FDG or 3FDGal images.
 
 📊 Step 3: Run the Analysis
+
 🔹 Execution Order:
 
 1️⃣ load_and_display_mri.ipynb – Loads and visualizes raw MRI images for the selected probe.
