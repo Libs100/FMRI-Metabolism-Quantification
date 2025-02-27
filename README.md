@@ -78,7 +78,7 @@ output_directory = r"YOUR_LOCAL_PATH_HERE/output_images"
 ---
 
 
-📊 Step 3: Run the Analysis
+### 🛠 **Step 3: Run the Analysis** 
 
 🔹 Execution Order:
 
