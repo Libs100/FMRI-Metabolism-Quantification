@@ -89,7 +89,7 @@ output_directory = r"YOUR_LOCAL_PATH_HERE/output_images"
 
 4️⃣ load_and_display_colormaps.ipynb – Loads and displays colormap images for visualization.
 
-5️⃣ apply_colormap_to_images.ipynb – Applies external colormaps to highlight metabolite signals.
+5️⃣ apply_colormap_snr.ipynb – Applies external colormaps to highlight metabolite signals.
 
 6️⃣ merge_mri_with_signal.ipynb – Overlays the processed signal maps onto anatomical MRI images.
 
