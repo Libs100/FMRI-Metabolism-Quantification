@@ -81,11 +81,17 @@ output_directory = r"YOUR_LOCAL_PATH_HERE/output_images"
 🔹 Execution Order:
 
 1️⃣ load_and_display_mri.ipynb – Loads and visualizes raw MRI images for the selected probe.
+
 2️⃣ compute_snr_analysis.ipynb – Computes and displays SNR values for each image.
+
 3️⃣ save_snr_to_excel.ipynb – Saves the computed SNR values into an organized Excel file.
+
 4️⃣ load_and_display_colormaps.ipynb – Loads and displays colormap images for visualization.
+
 5️⃣ apply_colormap_to_images.ipynb – Applies external colormaps to highlight metabolite signals.
+
 6️⃣ merge_mri_with_signal.ipynb – Overlays the processed signal maps onto anatomical MRI images.
+
 7️⃣ plot_snr_time_series.ipynb – Generates a time-series plot of SNR changes over time.
 
 🚀 Follow this order to ensure smooth data processing and visualization!
