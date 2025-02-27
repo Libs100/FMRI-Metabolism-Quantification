@@ -53,10 +53,8 @@ cd FMRI-Metabolism-Quantification
 
 Alternatively, download the ZIP file, extract it, and place it in a directory of your choice.
 
-🔹 **2.  Install Required Dependencies** 
-Run the following command to install all necessary Python packages- pip install -r requirements.txt
 
-🔹 **3. open Jupyter Notebook**
+🔹 **2. open Jupyter Notebook**
 Then, open scripts/the script you want to run.ipynb inside Jupyter
 
 
@@ -76,6 +74,9 @@ probe = "p2"  # Select "p1" for 3FDG or "p2" for 3FDGal
 output_directory = r"YOUR_LOCAL_PATH_HERE/output_images"
 
 🔍 Make sure you use the correct folder for 3FDG or 3FDGal images.
+
+---
+
 
 📊 Step 3: Run the Analysis
 
