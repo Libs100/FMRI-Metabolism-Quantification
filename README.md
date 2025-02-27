@@ -78,11 +78,17 @@ output_directory = r"YOUR_LOCAL_PATH_HERE/output_images"
 🔍 Make sure you use the correct folder for 3FDG or 3FDGal images.
 
 📊 Step 3: Run the Analysis
-Once configured, execute the notebook cells:
+🔹 Execution Order:
 
-1️⃣ Loads the MRI images for your chosen probe
-2️⃣ Processes & displays the images
-3️⃣ Saves a combined output image in output_images/
+1️⃣ load_and_display_mri.ipynb – Loads and visualizes raw MRI images for the selected probe.
+2️⃣ compute_snr_analysis.ipynb – Computes and displays SNR values for each image.
+3️⃣ save_snr_to_excel.ipynb – Saves the computed SNR values into an organized Excel file.
+4️⃣ load_and_display_colormaps.ipynb – Loads and displays colormap images for visualization.
+5️⃣ apply_colormap_to_images.ipynb – Applies external colormaps to highlight metabolite signals.
+6️⃣ merge_mri_with_signal.ipynb – Overlays the processed signal maps onto anatomical MRI images.
+7️⃣ plot_snr_time_series.ipynb – Generates a time-series plot of SNR changes over time.
+
+🚀 Follow this order to ensure smooth data processing and visualization!
 
 ✅ Final Output Example:
 After running the script, your results will be automatically saved in output_images/.
@@ -100,5 +106,6 @@ This project lays the foundation for an innovative tool to quantify and analyze 
 ## **📧 Contact & Support**
 📩 For questions or collaboration, contact:
 libi.saad@weizmann.ac.il
+
 ---
 
